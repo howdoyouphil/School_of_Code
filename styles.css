@@ -1,1 +1,18 @@
-/* Copy and paste your CSS from CodePen into here */
+<style>
+  #image {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    border: 10px,solid, black;
+  }
+  #img-caption {
+    font-size: 15px;
+    color: green;
+    padding-left: -10px;
+    background: yellow;
+    
+  }
+  ol {
+    padding: 10px, 10px, 10px, 10px
+  }
+  </style>
