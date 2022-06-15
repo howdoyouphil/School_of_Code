@@ -1,18 +1,83 @@
-#image {
-  max-width: 100%;
-  max-height: 100%;
-  display: block;
-  border: 10px, solid, black;
+
+#header-div {
+  background: url("https://images.unsplash.com/photo-1619604107557-b5321217aee7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8bWVsdGVkJTIwY2hlZXNlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=1000&q=60") no-repeat center fixed;
+  background-size: cover;
+  padding-bottom: -20px;
+  padding-top: 20px;
+  margin: -20px;
+}
+
+#title {
+  padding: 90px;
+  color: antiquewhite;
+  font-family: cursive;
+  font-size: 72px;
+}
+#overlay {
+  padding: 0px;
+  padding-top: 20px;
+  margin: -10px;
+  background: linear-gradient(0deg, rgba(5, 5, 5, 0.54), rgba(74, 83, 18, 0.69)), url(../../images/carousel-img2.jpg);
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+
+#first-p {
+  font-size: 40px;
+  color: antiquewhite;
+  padding-bottom: 70px;
 }
 
 #img-caption {
-  font-size: 15px;
-  color: green;
-  padding-left: -10px;
-  background: yellow;
-
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(0, 0, 0);
+  padding-left: -10;
 }
 
-ol {
-  padding: 10px, 10px, 10px, 10px
+#under-header-caption{
+  padding: 60px;
+  background-color: beige;
+  border-bottom: 4px black solid;
+  border-top: 4px black solid;
+}
+
+#spacer {
+  padding: 20px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+}
+
+
+.column {
+  flex: 50%;
+  padding: 10px;
+  width: 100%;
+  margin-left: -10px;
+  margin-right: -10px;
+  margin-top: 11px;
+}
+#pizza-img {
+  height: 40%;
+  width: 40%;
+  background-size: cover;
+  border: 2px solid black;
+  box-shadow: 0 7px 7px rgba(180, 179, 179, 0.8), 0 -7px 7px rgba(180, 179, 179, 0.8) ;
+  border-radius: 5px;
+  margin-top: 40px;
+  margin-left: 100px;
+  margin-bottom: -200px;
+}
+#column-text {
+  padding-top: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+  font-size: 20px;
+  margin-bottom: -200px;
 }
