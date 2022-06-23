@@ -103,12 +103,20 @@
 
   <h3> <u> Other notable mentions (the unmeltables):</u></h3>
   <center>
-    <img id="veg-cheese" src="https://foodsguy.com/wp-content/uploads/2020/03/Vegan-Cheese.webp" alt="vegan cheese">
+    <img id="veg-cheese" src="https://productplanet.ru/wp-content/uploads/2019/03/pea-cheese-from-pinterest.ru_.jpg" alt="vegan cheese">
     <div id="veg-box">
       <p>Vegan cheese is great, but I haven't found one that melts very well.</p>
     </div>
   </center>
-
+  <div class="popup" id="popup">
+    <div>
+      <img src="https://cdn.pixabay.com/photo/2012/04/28/18/48/mark-43972_1280.png">
+      <br>
+      <p2> You clicked the button!</p2>
+      <p> Thank your for viewing my application hopefully see you all soon :)</p>
+      <button id="close" type="button" onclick="closePopup()">Close</button>
+    </div>
+  </div>
   <center>
     <img id="veg-cheese"
       src="https://media.istockphoto.com/photos/three-grilled-slices-of-halloumi-cheese-on-grill-in-perspective-picture-id543080892?b=1&k=20&m=543080892&s=170667a&w=0&h=CZVvA2vFrtQ6AikICbQ9BpDc4oAIlNdIqYiHQjuQHUk="
@@ -116,22 +124,31 @@
     <div id="veg-box">
       <p>Halloumi is top-tier, especially in a sweet chili wrap! However, also does not melt.</p>
     </div>
-  
-  <div id="spacer"></div>
+    <div id="spacer"></div>
 
-<div id="email-box">
-<h1> Sign up to our email list</h1>
-<p id="email-sub-p"><b>We promise we will never email you!</b></p>
-  <input id="email-form" type="text" placeholder="Sign up to get emails">
-  <div>
-    <button id="sub-button" type="submit">Submit</button>
-  </div>
+    <div id="email-box">
+      <h1> Sign up to our email list</h1>
+      <p id="email-sub-p"><b>We promise we will never email you!</b></p>
+      <input id="email-form" type="text" placeholder="Sign up to get emails">
+      <div>
+        
+        <button id="sub-button" type="submit" onclick="openPopup()">Submit</button>
+      </div>
   </center>
-</div>
-<div id="spacer"></div>
-  <a style="margin-left: 40px;" id="tribute-link" href="https://www.google.com" target="_blank">Check out this link to
-    Google</a>
+  </div>
 
+  <script>
+    let popup = document.getElementById("popup")
+
+    function openPopup() {
+      popup.classList.add("open-popup")
+    }
+    
+    function closePopup() {
+      popup.classList.remove("open-popup")
+    }
+
+  </script>
   </main>
 </body>
 
