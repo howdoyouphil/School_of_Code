@@ -135,6 +135,12 @@
         <input type="email" name="email" placeholder="Sign up to get emails" required>
         <br>
         <button id="sub-button" onclick="openPopup()" type="submit">Submit</button>
+        <formio src="https://howdoyouphil.github.io/School_of_code.github.io/" (submit)="(function(submission) {
+
+          window.location.href = 'https://howdoyouphil.github.io/School_of_code.github.io/';
+        
+        })($event)"></formio>
+        
    </form>
   </center>
   </div>
