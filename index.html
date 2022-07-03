@@ -129,11 +129,11 @@
     <div id="email-box">
       <h1> Sign up to our email list</h1>
       <p id="email-sub-p"><b>We promise we will never email you!</b></p>
-      <input id="email-form" type="text" placeholder="Sign up to get emails">
-      <div>
-        
-        <button id="sub-button" type="submit" onclick="openPopup()">Submit</button>
-      </div>
+      <form id="email-form" action="https://formsubmit.co/philyoungmdv@gmail.com" method="POST">
+        <input type="email" name="email" placeholder="Sign up to get emails" required>
+        <br>
+        <button id="sub-button" onclick="openPopup()" type="submit">Submit</button>
+   </form>
   </center>
   </div>
 
