@@ -130,16 +130,13 @@
       <h1> Sign up to our email list</h1>
       <p id="email-sub-p"><b>We promise we will never email you!</b></p>
       <form id="email-form" action="https://formsubmit.co/67044ecbbff901441bc85ec1c292ade7" method="POST">
+        <input type="hidden" name="_next" value="https://howdoyouphil.github.io/School_of_code.github.io/">
         <input type="hidden" name="_captcha" value="false">
         <input type="hidden" name="_autoresponse" value="...Well maybe we'll send oneeee email!">
         <input type="email" name="email" placeholder="Sign up to get emails" required>
         <br>
         <button id="sub-button" onclick="openPopup()" type="submit">Submit</button>
-        <formio src="https://howdoyouphil.github.io/School_of_code.github.io/" (submit)="(function(submission) {
-
-          window.location.href = 'https://howdoyouphil.github.io/School_of_code.github.io/';
-        
-        })($event)"></formio>
+      
         
    </form>
   </center>
