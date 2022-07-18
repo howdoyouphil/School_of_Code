@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 
 <html>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <head>
   <title>My awesome tribute to cheese</title>
   <!-- The line below links your html document to your css stylesheet -->
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="mobile.css" />
 </head>
 
 <body>
@@ -36,7 +36,7 @@
   <div id="spacer"></div>
 
   <div class="row">
-    <div id="column-text-left-md-4 col-md-push-6" >
+    <div id="column-text-left">
       <center>
         <h2> <u>Mozzarella</u></h2>
         <p>This cheese is ideal for pizza and has a mild flavor. History Mozzarella was first made in Southern Italy
@@ -45,33 +45,31 @@
         </p>
 
     </div>
-    <div class="column-md-4 col-md-pull-6">
-      <img id="pizza-img" src="https://cdn.pixabay.com/photo/2020/06/17/21/46/pizza-5311269_1280.jpg" alt="pizza">
+    <div class="column">
+      <img id="pizza-img" src="https://cdn.pixabay.com/photo/2020/06/17/21/46/pizza-5311269_1280.jpg" alt="Pizza">
       </center>
-
     </div>
   </div>
   <hr id="mozz-div-line">
 
   <div class="row">
-    <div class="column">
-      <img id="cheddar-img"
-        src="https://images.unsplash.com/photo-1625084559831-cf53d1269e9f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGNoZWRkYXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=1000&q=60"
-        alt="cheddar">
-      </center>
-    </div>
-    <div id="column-text-right" class="column">
+    <div id="column-text-left">
       <center>
         <h2> <u>Cheddar</u></h2>
         <p>Mild Cheddar melts better than mature. There are many stories (some more believable than others) about how
           cheddar cheese originally came into being. Theres the one about the milkmaid who left a bucket of milk
           accidentally in the Cheddar Caves. She allegedly came back to find it had transformed into something more
           interesting! What is certain is that cheesemaking goes as far back as the Ancient Egyptians. <a
-            href="https://www.cheddaronline.co.uk/history-of-cheddar-cheese/"> See more</a>
-
-    </div>
-  </div>
-  <hr id="ched-div-line">
+            href="https://www.cheddaronline.co.uk/history-of-cheddar-cheese/"> See more</a></p>
+          </div>
+          <div class="column">
+            <img id="cheddar-img"
+        src="https://images.unsplash.com/photo-1625084559831-cf53d1269e9f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGNoZWRkYXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=1000&q=60"
+        alt="cheddar">
+            </center>
+          </div>
+        </div>
+  
 
   <div class="row">
     <div id="column-text-left">
@@ -103,7 +101,8 @@
 
   <h3> <u> Other notable mentions (the unmeltables):</u></h3>
   <center>
-    <img id="veg-cheese" src="https://productplanet.ru/wp-content/uploads/2019/03/pea-cheese-from-pinterest.ru_.jpg" alt="vegan cheese">
+    <img id="veg-cheese" src="https://productplanet.ru/wp-content/uploads/2019/03/pea-cheese-from-pinterest.ru_.jpg"
+      alt="vegan cheese">
     <div id="veg-box">
       <p>Vegan cheese is great, but I haven't found one that melts very well.</p>
     </div>
@@ -129,21 +128,25 @@
     <div id="email-box">
       <h1> Sign up to our email list</h1>
       <p id="email-sub-p"><b>We promise we will never email you!</b></p>
-      <input id="email-form" type="text" placeholder="Sign up to get emails">
-      <div>
-        
-        <button id="sub-button" type="submit" onclick="openPopup()">Submit</button>
-      </div>
+      <form id="email-form" action="https://formsubmit.co/67044ecbbff901441bc85ec1c292ade7" method="POST">
+        <input type="hidden" name="_next" value="https://howdoyouphil.github.io/School_of_code.github.io/">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_autoresponse" value="...Well maybe we'll send oneeee email!"> <!--this doesn't work because recaptcha needs to be enabled-->
+        <input type="email" name="email" placeholder="Sign up to get emails" required>
+        <br>
+        <button id="sub-button" onclick="openPopup()" type="submit">Submit</button>
+
+
+      </form>
   </center>
   </div>
-
   <script>
     let popup = document.getElementById("popup")
 
     function openPopup() {
       popup.classList.add("open-popup")
     }
-    
+
     function closePopup() {
       popup.classList.remove("open-popup")
     }

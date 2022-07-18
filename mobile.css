@@ -1,3 +1,5 @@
+
+
 #header-div {
   background: url("https://images.unsplash.com/photo-1619604107557-b5321217aee7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8bWVsdGVkJTIwY2hlZXNlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=1000&q=60") no-repeat center fixed;
   background-size: cover;
@@ -45,6 +47,8 @@
 }
 
 
+
+
 @keyframes fade {
   0% {
     background-color: rgb(248, 248, 95);
@@ -67,26 +71,9 @@
   padding: 20px;
 }
 
-* {
-  box-sizing: border-box;
-}
-
-.row {
-  display: flex;
-  flex-direction: row-reverse;
-}
-
-.column {
-  flex: 50%;
-  padding: 10px;
-  width: 50%;
-  margin-left: -10px;
-  margin-right: -10px;
-  margin-top: 11px;
-}
-
 #pizza-img {
-  height: 40%;
+  height: 600px;
+  width: auto;
   background-size: cover;
   border: 2px solid black;
   box-shadow: 0 7px 7px rgba(180, 179, 179, 0.8), 0 -7px 7px rgba(180, 179, 179, 0.8);
@@ -94,27 +81,29 @@
   margin-top: 40px;
   margin-left: 50px;
 
+
 }
 
 #column-text-left {
-  padding-top: 100px;
-  padding-left: 110px;
-  padding-right: 90px;
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
   font-size: 20px;
 }
 
 #mozz-div-line {
-  margin-top: -440px;
+  margin-top: 40px;
 }
 
 #cheddar-img {
-  height: 50%;
+  height: 600px;
+  width:auto;
   background-size: cover;
   border: 2px solid black;
   box-shadow: 0 7px 7px rgba(180, 179, 179, 0.8), 0 -7px 7px rgba(180, 179, 179, 0.8);
   border-radius: 5px;
   margin-top: 40px;
-  margin-left: 150px;
+  margin-left: 50px;
 }
 
 #cheddar-img:hover {
@@ -122,22 +111,23 @@
 }
 
 #column-text-right {
-  padding-top: 100px;
-  padding-right: 110px;
-  padding-left: 90px;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-left: 0px;
   font-size: 20px;
 }
 
 #ched-div-line {
-  margin-top: -250px;
+  margin-top: 40px;
 }
 
 #bert-div-line {
-  margin-top: -250px;
+  margin-top: 40px;
 }
 
 #berty-img {
-  height: 50%;
+  height: 600px;
+  width: auto;
   background-size: cover;
   border: 2px solid black;
   box-shadow: 0 7px 7px rgba(180, 179, 179, 0.8), 0 -7px 7px rgba(180, 179, 179, 0.8);
@@ -145,7 +135,6 @@
   margin-top: 40px;
   margin-left: 50px;
 }
-
 
 #sub-info {
   margin-left: 190px;
@@ -234,8 +223,8 @@ h3 {
 
 .popup div{
     background-color: white;
-    margin-left: 580px;
-    margin-right: 580px;
+    margin-left: 80px;
+    margin-right: 80px;
     border-radius: 5px;
     box-shadow: 0 7px 7px rgba(180, 179, 179, 0.8), 0 -7px 11px rgba(180, 179, 179, 0.8) ;
 }
@@ -255,3 +244,4 @@ h3 {
 .popup p2{
   font-size: 29px;
 }
+
