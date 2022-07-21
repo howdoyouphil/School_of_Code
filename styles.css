@@ -71,26 +71,60 @@
   box-sizing: border-box;
 }
 
-.row {
-  display: flex;
+.wrapper {
+  width: 100%;
+  table-layout: fixed;
+  background-color: #f6f9fc;
 }
 
-.column {
-  flex: 50%;
-  padding: 10px;
-  width: 50%;
-  margin-left: -10px;
-  margin-right: -10px;
-  margin-top: 11px;
+.webkit {
+  max-width: 100%;
+  background-color: #ffffff;
 }
+.outer {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 100%;
+  border-spacing: 0;
+  font-family: sans-serif;
+  color: #4a4a4a;
+}
+
+
+.three-columns {
+  text-align: center;
+  font-size: 0;
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+
+.three-columns .column {
+  width: 100%;
+  max-width: 500px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.padding {
+  padding: 15px;
+}
+
+.three-columns .content {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #388cda;
+  font-size: 16px;
+}
+
 
 #pizza-img {
-  height: 40%;
-  background-size: cover;
   border: 2px solid black;
   box-shadow: 0 7px 7px rgba(180, 179, 179, 0.8), 0 -7px 7px rgba(180, 179, 179, 0.8);
   border-radius: 5px;
-  margin-top: 40px;
   margin-left: 50px;
 
 }
@@ -107,13 +141,11 @@
 }
 
 #cheddar-img {
-  height: 50%;
-  background-size: cover;
   border: 2px solid black;
   box-shadow: 0 7px 7px rgba(180, 179, 179, 0.8), 0 -7px 7px rgba(180, 179, 179, 0.8);
   border-radius: 5px;
-  margin-top: 40px;
-  margin-left: 150px;
+  margin-top: 20px;
+
 }
 
 #cheddar-img:hover {
@@ -131,9 +163,6 @@
   margin-top: -250px;
 }
 
-#bert-div-line {
-  margin-top: -250px;
-}
 
 #berty-img {
   height: 50%;
@@ -146,6 +175,8 @@
 }
 
 #sub-info {
+  margin-top: -10px;
+  margin-bottom: 40px;
   margin-left: 190px;
   margin-right: 190px;
 }
@@ -203,42 +234,43 @@ h3 {
   border-width: 1pt;
 }
 
-.popup{
+.popup {
   position: absolute;
   text-align: center;
   background-color: rgba(179, 176, 176, 0.393);
   height: 100%;
-  width:100%;
-  
+  width: 100%;
+
   padding-top: 250px;
   padding-bottom: 250px;
-  transform:scale(0.1);
+  transform: scale(0.1);
   visibility: hidden;
   transition: transform 0.4s;
 }
-.open-popup{
+
+.open-popup {
   visibility: visible;
   position: fixed;
   transform: scale(1);
   top: 0px;
 }
 
-.popup img{
+.popup img {
   height: 25%;
-  width:25%;
-  padding-bottom:20px;
-  margin-top:-35px;
+  width: 25%;
+  padding-bottom: 20px;
+  margin-top: -35px;
 }
 
-.popup div{
-    background-color: white;
-    margin-left: 580px;
-    margin-right: 580px;
-    border-radius: 5px;
-    box-shadow: 0 7px 7px rgba(180, 179, 179, 0.8), 0 -7px 11px rgba(180, 179, 179, 0.8) ;
+.popup div {
+  background-color: white;
+  margin-left: 580px;
+  margin-right: 580px;
+  border-radius: 5px;
+  box-shadow: 0 7px 7px rgba(180, 179, 179, 0.8), 0 -7px 11px rgba(180, 179, 179, 0.8);
 }
 
-.popup button{
+.popup button {
   margin-top: 25px;
   font-size: 12px;
   transform: scale(1.5);
@@ -250,6 +282,7 @@ h3 {
   border-width: 1pt;
   margin-bottom: 25px;
 }
-.popup p2{
+
+.popup p2 {
   font-size: 29px;
 }
