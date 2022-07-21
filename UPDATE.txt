@@ -1,0 +1,26 @@
+Hey School of Code folk! 
+
+So making my page responsive has been a bit of a challenge, my initial page has been coded in a way that I 
+couldn't think of an easy way to fix it. (I know that there might be a way and I might have over complicated 
+the situation but here is the route that I am taking to solve it.)
+
+Firstly, I re-wrote parts of the HTML and CSS into a new file for each (bad practice I know but all in the name of 
+learning), so I had one file that would show a 'website friendly' version and one that is 'mobile friendly' version. 
+Then wrote a line of JS to check the display screen size then run the correct files depending on device.
+
+I then went to merge it with my main branch but was not sure how the end result would turn out, so I created a clone 
+of this repo  called (clone_School_of_code) and tried it.. However it didn't seem to work as intended!
+
+Being that my approach to fixing it is considered bad practice anyway I didn't feel it was worth committing time to
+finding a "correct" solution to an already flawed answer to my problem so I have started fixing the problem correctly!
+
+What I have done is I followed a tutorial for creating a responsive email (https://github.com/howdoyouphil/responsive-email.github.io)
+which is working as a responsive method which I will now start integrating the methods into my tribute page.
+
+This might take me a little time (and I am feeling time conscious) as it will probably involve me re-writing the code for
+my tribute page so I thought I would  just let you know of the steps that I am taking and it is not just being ignored.
+
+
+Kind regards,
+
+Phil
