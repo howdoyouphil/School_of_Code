@@ -1,3 +1,14 @@
+Turns out my last update actually made everything look worse :(
+
+I am not sure why that's happened it all looked alright on the 'inspect' mode mobile 
+
+I am aware of the error and will look at it when I get back from work
+
+
+
+
+------------------------------------------------------------------------------------------------------------
+
 Hey School of Code folk! 
 
 So making my page responsive has been a bit of a challenge, my initial page has been coded in a way that I 
