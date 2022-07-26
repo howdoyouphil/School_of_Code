@@ -1,11 +1,19 @@
+So I have been pondering the issue, and I think my best approch is to keep pushing my attempts to github repository
+By doing this I can see on my actual mobile if the edits have worked as it will be running on a live site rather than 
+the editor. 
+
+So just a heads up, my next few pushes might be.. not great.. but I will keep on 'till I have a finished product :)
+
+(I did think of creating a new branch, but then it won't show on the live page. And I also thought of cloning the repo 
+again and creating a new page, but then if you wanted to check my progress then the information wouldn't all be there.
+
+------------------------------------------------------------------------------------------------------------
+
 Turns out my last update actually made everything look worse :(
 
 I am not sure why that's happened it all looked alright on the 'inspect' mode mobile 
 
 I am aware of the error and will look at it when I get back from work
-
-
-
 
 ------------------------------------------------------------------------------------------------------------
 
