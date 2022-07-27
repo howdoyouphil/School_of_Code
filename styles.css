@@ -330,23 +330,22 @@ h3 {
   }
 
   #berty-img {
-    width: 70%;
     margin-top: 0px;
     margin-left: 0px;
   }
 
   #cheddar-img {
-    width: 70%;
+
     margin-left: 0px;
   }
 
   #pizza-img {
-    width: 70%;
+
     margin-left: 0px;
   }
 
   .wrapper {
-    width: fit-content;
+    width: 70%;
   }
 
   #column-text-left {
@@ -359,6 +358,11 @@ h3 {
     text-align: center;
     padding-right: 30px;
     padding-left: 30px;
+
+  }
+
+  .three-columns .column {
+    width: 70%;
 
   }
 }
