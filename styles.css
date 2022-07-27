@@ -346,7 +346,7 @@ h3 {
   }
 
   .wrapper {
-    width: 70%;
+    width: fit-content;
   }
 
   #column-text-left {
@@ -362,8 +362,4 @@ h3 {
 
   }
 
-  .three-columns .column {
-    width: 70%;
-
-  }
 }
